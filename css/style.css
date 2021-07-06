@@ -1,0 +1,122 @@
+a{
+    display: block;
+    color: inherit;
+    text-decoration: none
+}
+.main-container {
+    width: 1420px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+/* Header */
+
+.logo-top {
+    display: block;
+    padding-top: 29px;
+    width: 70px;
+}
+
+.nav-list {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+    margin-left: 330px;
+    padding-top: 45px;
+    color: #333333;
+}
+
+.nav-links li:not(:last-child) {
+    margin-right: 60px;
+}
+
+.current {
+    position: relative;
+}
+
+.current:hover::after {
+    content: "";
+    position: absolute;
+    margin-top: -4px;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    border-radius: 1px;
+    background-color: #333333;
+}
+.current:hover::before {
+    content: "";
+    position: absolute;
+    margin-bottom: -4px;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    border-radius: 1px;
+    background-color: #333333;
+}
+
+/* Section preview */
+
+.flex-container {
+    display: flex;
+}
+
+ h1 {
+    margin: 0;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+h1 span {
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.preview-project {
+    height: 100%;
+    margin-top: 365px;
+}
+
+.projects-pic {
+    margin-top: 48px;
+    margin-left: 206px;
+    display: block;
+}
+
+.prj-btn-l,
+.prj-btn-r {
+    font-size: x-large;
+    width: 53px;
+    height: 53px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+}
+.prj-btn-l {
+    margin-right: 23px;
+}
+
+.counter {
+    width: 24px;
+
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+
+
+    color: #BDBDBD;
+}

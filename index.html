@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/modern-normalize.css">
     <title>Document</title>
   </head>
   <body>
@@ -12,38 +13,40 @@
       <div class="main-container">
         <nav class="nav-list">
           <a href="./index.html">
-            <img src="./images/logo-top.png" alt="logo" width="145px"
+            <img class="logo-top" src="./images/logo-top.png" alt="logo"
           /></a>
-          <div class="menu-container">
             <ul class="nav-links">
-              <li>Главныя</li>
-              <li>Галерея</li>
-              <li>Проекты</li>
-              <li>Сертификаты</li>
-              <li>Контакты</li>
+              <li> <a class="current" href="./index.html">Главная</a></li>
+              <li> <a class="current" href="#">Галерея</a></li>
+              <li> <a class="current" href="#">Проекты</a></li>
+              <li> <a class="current" href="#">Сертификаты</a></li>
+              <li> <a class="current" href="#">Контакты</a></li>
             </ul>
-          </div>
         </nav>
       </div>
     </header>
 
-    <section class="service">
+    <section id="preview">
       <div class="main-container">
-        <div class="project">
+        <div class="flex-container">
+        <div class="preview-project">
           <h1>
             Project <br />
-            home
+            <span> home </span>
           </h1>
-          <button class="prj-btn"></button>
-          <button class="prj-btn"></button>
+          <div class="counter-btn">
+          <button class="prj-btn-l">←</button>
+          <button class="prj-btn-r">→</button> <br>
+          <span class="counter">01 / 02</span>
         </div>
-        <div class="look-it">
-          <button class="look-btn"></button>
+        </div>
+        <div class="projects-pic">
+          <img src="./images/preview.png" alt="preview">
         </div>
       </div>
     </section>
 
-    <section class="about-company">
+    <section id="about-company">
       <div class="main-container">
         <ul class="img-list">
           <li></li>
@@ -60,7 +63,6 @@
           </span>
           <button></button>
         </ul>
-      </div>
       <div class="info"></div>
       <h2>Основные задачи</h2>
       <div class="main-tasks">
@@ -76,9 +78,10 @@
           </li>
         </ul>
       </div>
+    </div>
     </section>
 
-    <section class="our-projects">
+    <section id="our-projects">
       <div class="main-container">
         <h2>Наши проекты</h2>
         <ul class="projects-list">
@@ -92,7 +95,7 @@
       </div>
     </section>
 
-    <section class="contact-us">
+    <section id="contact-us">
       <div class="main-container">
         <h2>Связаться с нами</h2>
         <form action="#" class="form">
