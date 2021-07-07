@@ -178,6 +178,7 @@ h1 span {
     font-weight: 300;
     font-size: 64px;
     line-height: 64px;
+    color: #BDBDBD;
 }
 
 .about-info {
@@ -203,19 +204,54 @@ h1 span {
     margin-top: 150px;
 }
 
-.task-list {
-    display: flex;
+.main-tasks h2 {
+    /* margin-bottom: 60px; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
 }
 
-.task-list span {
+.task-list {
+    display: flex;
+    align-items: center;
+}
+
+/* .task-list {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    color: #F2F2F2;
+} */
+
+/* .task-list span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
+} */
+
+/* .task-list li {
+    width: 279px;
+} */
+
+/* .task-list li:last-child {
+    width: 420px;
+} */
+.num {
     font-style: normal;
     font-weight: 900;
     font-size: 200px;
     line-height: 239px;
-    display: flex;
-    align-items: center;
+    color: #F2F2F2;
+}
 
-/* Gray 6 */
-
-color: #F2F2F2;
+.task-txt {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 36px;
+    color: #333333;
 }
