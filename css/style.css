@@ -206,3 +206,16 @@ h1 span {
 .task-list {
     display: flex;
 }
+
+.task-list span {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 200px;
+    line-height: 239px;
+    display: flex;
+    align-items: center;
+
+/* Gray 6 */
+
+color: #F2F2F2;
+}
