@@ -1,229 +1,229 @@
-a{
-    display: block;
-    color: inherit;
-    text-decoration: none
+a {
+  display: block;
+  color: inherit;
+  text-decoration: none;
 }
 .main-container {
-    width: 1420px;
-    margin: 0 auto;
-    padding: 0 10px;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* Header */
 
 .logo-top {
-    display: block;
-    padding-top: 29px;
-    width: 70px;
+  display: block;
+  padding-top: 29px;
+  width: 70px;
 }
 
 .nav-list {
-    display: flex;
+  display: flex;
 }
 
 .nav-links {
-    display: flex;
-    margin-left: 330px;
-    padding-top: 45px;
-    color: #333333;
+  display: flex;
+  margin-left: 330px;
+  padding-top: 45px;
+  color: #333333;
 }
 
 .nav-links li:not(:last-child) {
-    margin-right: 60px;
+  margin-right: 60px;
 }
 
 .current {
-    position: relative;
+  position: relative;
 }
 
 .current:hover::after {
-    content: "";
-    position: absolute;
-    margin-top: -4px;
-    width: 100%;
-    height: 1px;
-    left: 0;
-    border-radius: 1px;
-    background-color: #333333;
+  content: "";
+  position: absolute;
+  margin-top: -4px;
+  width: 100%;
+  height: 1px;
+  left: 0;
+  border-radius: 1px;
+  background-color: #333333;
 }
 .current:hover::before {
-    content: "";
-    position: absolute;
-    margin-bottom: -4px;
-    width: 100%;
-    height: 1px;
-    bottom: 0;
-    left: 0;
-    border-radius: 1px;
-    background-color: #333333;
+  content: "";
+  position: absolute;
+  margin-bottom: -4px;
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  border-radius: 1px;
+  background-color: #333333;
 }
 
 /* Section preview */
 
 .flex-container {
-    display: flex;
+  display: flex;
 }
 
- h1 {
-    margin: 0;
-    /* font-family: TT Hoves; */
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
-    color: #BDBDBD;
+h1 {
+  margin: 0;
+  /* font-family: TT Hoves; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
 }
 
 h1 span {
-    /* font-family: TT Hoves; */
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 64px;
-    color: #333333;
+  /* font-family: TT Hoves; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  color: #333333;
 }
 
 .preview-project {
-    height: 100%;
-    margin-top: 365px;
+  height: 100%;
+  margin-top: 365px;
 }
 
 .projects-pic {
-    position: relative;
-    margin-top: 48px;
-    margin-left: 206px;
-    display: block;
+  position: relative;
+  margin-top: 48px;
+  margin-left: 206px;
+  display: block;
 }
 
 .prj-btn-l,
 .prj-btn-r {
-    font-size: x-large;
-    width: 53px;
-    height: 53px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    border: 1px solid #F2F2F2;
-    box-sizing: border-box;
-    cursor: pointer;
+  font-size: x-large;
+  width: 53px;
+  height: 53px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 .prj-btn-l {
-    margin-right: 23px;
+  margin-right: 23px;
 }
 
 .counter-btn {
-    display: inline-block;
-    margin-top: 90px;
-    margin-bottom: 94px;
+  display: inline-block;
+  margin-top: 90px;
+  margin-bottom: 94px;
 }
 .counter {
-    width: 24px;
+  width: 24px;
 
-    /* font-family: TT Hoves; */
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 24px;
-    color: #BDBDBD;
+  /* font-family: TT Hoves; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #bdbdbd;
 }
 
 .slash {
-    margin: 32px;
+  margin: 32px;
 }
 
 .preview-btn {
-    position: absolute;
-    width: 222px;
-    height: 71px;
-    left: 0px;
-    top: 758px;
-    background: #FFFFFF;
-    cursor: pointer;
+  position: absolute;
+  width: 222px;
+  height: 71px;
+  left: 0px;
+  top: 758px;
+  background: #ffffff;
+  cursor: pointer;
 }
 
 /* About company */
 
 .about-container {
-    display: flex;
-    width: 1170px;
-    margin-top: 100px;
-    background: #FBFBFB;
+  display: flex;
+  width: 1170px;
+  margin-top: 100px;
+  background: #fbfbfb;
 }
 
 .img-list {
-    padding-top: 30px;
-    padding-left: 100px;
-    padding-right: 30px;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 30px;
 }
 
 .img-list li:not(:last-child) {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .img-list li:last-child {
-    position: absolute;
+  position: absolute;
 }
 
 .single-img {
-    padding-top: 60px;
-    padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 
 .about-info h2 {
-    padding-bottom: 20px;
-    padding-top: 30px;
-    text-align: center;
-    /* font-family: TT Hoves; */
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
-    color: #BDBDBD;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  text-align: center;
+  /* font-family: TT Hoves; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
 }
 
 .about-info {
-    position: relative;
-    text-align: left;
-    width: 400px;
-    margin-left: 30px;
+  position: relative;
+  text-align: left;
+  width: 400px;
+  margin-left: 30px;
 }
 
 .about-btn {
-    position: absolute;
-    width: 222px;
-    height: 71px;
-    left: 0px;
-    top: 334px;
-    cursor: pointer;
-    background: #FFFFFF;
+  position: absolute;
+  width: 222px;
+  height: 71px;
+  left: 0px;
+  top: 334px;
+  cursor: pointer;
+  background: #ffffff;
 }
 
 /* Main tasks */
 
 .main-tasks {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .main-tasks h2 {
-    /* margin-bottom: 60px; */
-    font-style: normal;
-    font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
-    color: #BDBDBD;
+  margin-bottom: 60px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
 }
 
 .task-list {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
-/* .task-list {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 200px;
-    color: #F2F2F2;
-} */
+.task-list span {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  color: #f2f2f2;
+}
 
 /* .task-list span {
     font-style: normal;
@@ -233,25 +233,95 @@ h1 span {
     color: #333333;
 } */
 
-/* .task-list li {
-    width: 279px;
-} */
+.task-list li {
+  width: 279px;
+}
 
-/* .task-list li:last-child {
-    width: 420px;
-} */
-.num {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 200px;
-    line-height: 239px;
-    color: #F2F2F2;
+.task-list li:last-child {
+  width: 420px;
+}
+
+.task-list li:not(:last-child) {
+  margin-right: auto;
 }
 
 .task-txt {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 36px;
-    color: #333333;
+  padding-left: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+}
+
+/* Our projects */
+
+.op-title {
+  margin-top: 120px;
+  margin-bottom: 60px;
+  /* font-family: TT Hoves; */
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #bdbdbd;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-list li:first-child {
+  margin-right: 30px;
+}
+
+.projects-list li:nth-child(4) {
+  margin: 0 30px;
+}
+
+.projects-list li:nth-child(-n + 2) {
+  margin-bottom: 30px;
+}
+
+.overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.card-overlay {
+  /* font-family: TT Hoves; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+
+  position: absolute;
+  /* padding: 63px 24px; */
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(51, 51, 51, 0.8);
+}
+
+.projects-list a:hover .card-overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.overlay-btn {
+    margin-bottom: 53px;
+  /* font-family: Gothic A1; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(51, 51, 51, 0);
 }
